@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Loging">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="50" vgap="100">
+    <constraints>
+      <xy x="14" y="12" width="626" height="376"/>
+    </constraints>
+    <properties>
+      <alignmentX value="1.0"/>
+      <alignmentY value="1.0"/>
+      <autoscrolls value="true"/>
+      <background color="-1379624"/>
+      <font/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="none"/>
+    <children>
+      <component id="cdc9" class="javax.swing.JLabel" binding="lblwelcome">
+        <constraints border-constraint="North"/>
+        <properties>
+          <alignmentY value="1.0"/>
+          <autoscrolls value="false"/>
+          <background color="-872141"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <focusCycleRoot value="false"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="true"/>
+          <font name="Courier New" size="28" style="1"/>
+          <foreground color="-869314"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <iconTextGap value="2"/>
+          <inheritsPopupMenu value="true"/>
+          <opaque value="false"/>
+          <preferredSize width="191" height="30"/>
+          <text value="Welcome to the Sasanga Enterprices"/>
+          <verticalAlignment value="1"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="8004f" class="javax.swing.JLabel" binding="chooseLbl" custom-create="true">
+        <constraints border-constraint="West"/>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
